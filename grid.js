@@ -32,8 +32,8 @@ for (let i = 0; i < rows; i++) {
         cell.setAttribute("spellcheck", "false");
 
         //Attributes for cell & storage identification
-        cell.setAttribute("rid",i);
-        cell.setAttribute("cid",j);
+        cell.setAttribute("rid", i);
+        cell.setAttribute("cid", j);
 
         rowCont.appendChild(cell);
         addListenerForAddressBarDisplay(cell, i, j);
